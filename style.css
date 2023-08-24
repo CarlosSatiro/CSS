@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(122, 165, 159),rgb(126, 100, 187));
+}
+.all{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+   
+    
+    
+}
+.left{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.right{
+    display: block;
+    background-image: url(pexels-henry-&-co-7848277.jpg);
+    background-size: cover;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px; 
+    border: solid;
+    border-color: rgb(126, 100, 187);
+    box-shadow: 2px 2px 5px black;
+
+}
+input:focus{
+    background-color: rgba(122, 165, 159, 0.521);
+}
+button{
+    color: white;
+    font-weight:bolder;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(84, 114, 110);
+    box-shadow: 2px 2px 5px black;
+}
+button:hover{
+    color: black;
+    background-color: rgba(122, 165, 159, 0.521);
+}
+@media screen and (min-width:375px) and (max-width:768px) {
+
+    .all{
+        width: 90%;
+    }
+    .right{
+        width: 50%;
+
+}
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .all{
+        width: 90%;
+    }
+    .right{
+        width: 50%;
+        
+
+}
+}
